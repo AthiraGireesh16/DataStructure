@@ -11,10 +11,10 @@ function binarySearch(arr,target){
             right =mid-1
         }
 }
-return -1
+return false
 }
 
 const arr = [1,2,3,4,5,6]
 
 console.log("The index of the search value:");
-console.log(binarySearch(arr,4));
+console.log(binarySearch(arr,3));
