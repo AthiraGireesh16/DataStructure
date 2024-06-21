@@ -50,7 +50,7 @@ console.log(binarySearch(array,target));
 */
     
 //The square root 
-
+/*
 function floorSqrt(n){
     if(n<0){
         console.log("Enter valid number");
@@ -81,3 +81,4 @@ function floorSqrt(n){
 const n=10;
 
 console.log(floorSqrt(n));
+*/
