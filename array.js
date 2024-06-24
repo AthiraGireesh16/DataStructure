@@ -42,11 +42,11 @@ console.log(result.sort());
 */
 
 //slice
-/*
-const number = [1,2,3,4,5];
-const slicedArr = number.slice(1,4)
-console.log(slicedArr); 
-*/
+
+// const number = [1,2,3,4,5];
+// const slicedArr = number.slice(1)
+// console.log(slicedArr); 
+
 
 //splice
 
