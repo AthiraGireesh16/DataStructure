@@ -35,7 +35,7 @@ class LinkedList{
 function arrtoll(array){
     const list = new LinkedList()
     for(const value of array){
-        list.add(value)
+        list.insert(value)
     }
     return list;
 }
