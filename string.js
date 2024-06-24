@@ -53,3 +53,20 @@ function charCount(str){
 }
 console.log(charCount('HelloHi'));
 */
+
+//=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>=>
+
+//Question 4: check the given strings are anagram or not?
+
+function anagram(str1,str2){
+    function cleanandsort(str){
+        return str.replace(/[^\w]/g,'').toLowerCase().split('').sort().join('')
+    }
+    
+    const sortString1= cleanandsort(str1);
+    const sortString2= cleanandsort(str2);
+
+    return sortString1===sortString2;
+}
+
+console.log(anagram('listeen','silent'));
